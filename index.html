@@ -2,24 +2,18 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Habit Tracker</title>
+  <title>Simple Supabase Test</title>
 </head>
 <body>
-  <h1>Habit Tracker</h1>
+  <h1>Supabase Test</h1>
 
-  <!-- Add Habit Form -->
-  <form id="habit-form">
-    <input type="text" id="habit-input" placeholder="Enter new habit" required>
-    <button type="submit">Add Habit</button>
-  </form>
+  <button id="add-btn">Add Habit</button>
+  <button id="load-btn">Load Habits</button>
 
-  <!-- Habit List -->
   <ul id="habit-list"></ul>
 
-  <!-- Supabase CDN -->
+  <!-- Supabase client via CDN -->
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
-  <!-- Your app logic -->
   <script src="script.js"></script>
 </body>
 </html>
