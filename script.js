@@ -1,6 +1,6 @@
 // Initialize Supabase client
-const SUPABASE_URL = "https://YOUR-PROJECT.supabase.co";
-const SUPABASE_KEY = "public-anon-key"; // from Supabase settings
+const SUPABASE_URL = "https://ilcleccjwmikoqufktou.supabase.co";
+const SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImlsY2xlY2Nqd21pa29xdWZrdG91Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTY3Nzk5NTgsImV4cCI6MjA3MjM1NTk1OH0.snr3BIYkrpS0FySnE4yQ18P0bZeQ9N4A3m39yeJMeCE"; // from Supabase settings
 const supabase = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
 
 const habitForm = document.getElementById("habit-form");
