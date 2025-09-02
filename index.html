@@ -3,32 +3,23 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Boilerplate Page</title>
-  <link rel="stylesheet" href="styles.css"> <!-- Optional external CSS -->
+  <title>Habit Tracker</title>
 </head>
 <body>
-  <header>
-    <h1>Welcome!</h1>
-    <nav>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+  <h1>Habit Tracker</h1>
 
-  <main>
-    <section>
-      <h2>Main Content</h2>
-      <p>This is a simple HTML5 boilerplate you can build on.</p>
-    </section>
-  </main>
+  <!-- Add Habit Form -->
+  <form id="habit-form">
+    <input type="text" id="habit-input" placeholder="Enter new habit" required>
+    <button type="submit">Add Habit</button>
+  </form>
 
-  <footer>
-    <p>&copy; 2025 Your Name</p>
-  </footer>
+  <!-- Habit List -->
+  <ul id="habit-list"></ul>
 
-  <script src="script.js"></script> <!-- Optional external JS -->
+  <!-- Supabase CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
+  <!-- Your app logic -->
+  <script src="script.js"></script>
 </body>
 </html>
