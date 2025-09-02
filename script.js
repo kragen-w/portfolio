@@ -1,7 +1,9 @@
 // Connect to Supabase
+
+
 const SUPABASE_URL = "https://YOUR-PROJECT.supabase.co";
 const SUPABASE_KEY = "public-anon-key"; // from Supabase settings
-const supabaseClient = supabase.createsupabaseClient(SUPABASE_URL, SUPABASE_KEY);
+const supabaseClient = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
 
 const addBtn = document.getElementById("add-btn");
 const loadBtn = document.getElementById("load-btn");
